@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "statkit"
+version = "0.1.0"
+description = "A lightweight statistical toolkit: Monte Carlo, Bootstrap, and EM Algorithm"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.26.0",
+    "scipy>=1.11.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/你的用户名/stats-playground"
+
