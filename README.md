@@ -11,6 +11,7 @@ A structured collection of statistical algorithm implementations, visualizations
 | [01 — Algorithms](./01-algorithms/) | Algorithm Implementations | Monte Carlo, Bootstrap, EM Algorithm |
 | [02 — Visualizations](./02-visualizations/) | Statistical Visualizations | CLT, Bayesian Updating, Hypothesis Testing |
 | [03 — Case Study](./03-case-study/) | Economic Data Analysis | US macroeconomic indicators from FRED (1990–present) |
+| [statkit](./statkit/) | Python Package | The algorithms from Phase 01 packaged as reusable, unit-tested functions |
 
 ---
 
@@ -51,7 +52,21 @@ Exploratory analysis of four US macroeconomic indicators (GDP, CPI, Unemployment
 
 ---
 
+## statkit — Reusable Package
+
+The Monte Carlo, Bootstrap and EM implementations refactored into a small installable package with `pytest` unit tests.
+
+```bash
+pip install -e ./statkit
+pytest statkit/tests
+```
+
+→ [View folder](./statkit/)
+
+---
+
 ## Requirements
 
 ```bash
 pip install numpy pandas matplotlib scipy fredapi
+```
