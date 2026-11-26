@@ -50,3 +50,4 @@ Exploratory analysis of four key US macroeconomic indicators sourced directly fr
 
 ```bash
 pip install numpy pandas matplotlib fredapi
+```
