@@ -48,3 +48,4 @@ Given data drawn from two overlapping Gaussian distributions with unknown labels
 
 ```bash
 pip install numpy matplotlib scipy
+```
